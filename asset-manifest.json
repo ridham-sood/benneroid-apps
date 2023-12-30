@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/benneroid-apps/static/css/main.709b5a0b.css",
-    "main.js": "/benneroid-apps/static/js/main.1caaaad5.js",
+    "main.js": "/benneroid-apps/static/js/main.18e0da1c.js",
     "static/media/clouds.png": "/benneroid-apps/static/media/clouds.058d1121e95348721a5e.png",
     "static/media/mist.png": "/benneroid-apps/static/media/mist.bec995ef50f9dab24180.png",
     "static/media/snow.png": "/benneroid-apps/static/media/snow.c8ed556c8e144314a339.png",
     "static/media/drizzle.png": "/benneroid-apps/static/media/drizzle.586dab4fa773ec5fbaaf.png",
     "index.html": "/benneroid-apps/index.html",
     "main.709b5a0b.css.map": "/benneroid-apps/static/css/main.709b5a0b.css.map",
-    "main.1caaaad5.js.map": "/benneroid-apps/static/js/main.1caaaad5.js.map"
+    "main.18e0da1c.js.map": "/benneroid-apps/static/js/main.18e0da1c.js.map"
   },
   "entrypoints": [
     "static/css/main.709b5a0b.css",
-    "static/js/main.1caaaad5.js"
+    "static/js/main.18e0da1c.js"
   ]
 }
