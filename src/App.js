@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import NoteApp from './application/notes_app/NoteApp'
+import PasswordGenerator from './application/password_generator/PasswordGenerator'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './application/Home'
+import Question from './application/quiz_app/card/Question'
+import ToDoList from './application/todolist/ToDoList'
+import Weather from './application/weather_app/Weather'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/noteapp' element={<NoteApp />} />
+        <Route path='/passwordgenerator' element={<PasswordGenerator />} />
+        <Route path='/quiz' element={<Question />} />
+        <Route path='/todolist' element={<ToDoList />} />
+        <Route path='/weather' element={<Weather />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

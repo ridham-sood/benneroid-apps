@@ -1,0 +1,45 @@
+.task-message {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.task-body {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.message {
+    margin-left: 30px;
+}
+
+.message.checked {
+    text-decoration: line-through;
+}
+
+.wrapper-button {
+    display: flex;
+    align-items: center;
+}
+
+.button-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+
+.button-remove {
+    border-radius: 30px;
+    padding: 5px 10px;
+
+}
+
+

@@ -1,0 +1,89 @@
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #a8dadc;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card {
+    width: 700px;
+    height: 500px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.option {
+    width: 90%;
+    height: 20%;
+    background-color: #f1faee;
+    border: 0 solid #f1faee;
+    border-radius: 4px;
+    margin: 6px;
+    padding: 10px;
+}
+
+.option:hover {
+    background-color: #00b4d8;
+}
+
+.correct,
+.correct:hover {
+    background-color: #60d394;
+}
+
+.wrong,
+.wrong:hover {
+    background-color: #ee6055;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+.next-button {
+    height: 45px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #1d3557;
+    border: 1px solid #1d3557;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(87, 71, 81, .2);
+    cursor: pointer;
+    transition: all 2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.next-button:hover {
+    background-color: #1a759f;
+    transition: all .2s ease-out;
+}

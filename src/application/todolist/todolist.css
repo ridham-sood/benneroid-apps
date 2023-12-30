@@ -1,0 +1,52 @@
+.todolist-body {
+  background: linear-gradient(90deg, #A9FDAC, #44CF6C);
+}
+
+.todolist-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.todolist-card-body {
+    width: 90%;
+    max-width: 470px;
+    height: 80%;
+    background: #f1ffe7;
+    text-align: center;
+    border: solid;
+    border-width: 4px;
+    border-radius: 20px;
+}
+
+.todolist-head {
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-align: start;
+    margin-left: 40px;
+}
+
+.todolist-add-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todolist-head-input {
+    width: 70%;
+    height: 28.5px;
+    margin: 20px 0;
+    border-radius: 18px;
+    padding: 2px 12px;
+}
+
+.todolist-head-button {
+    width: 10%;
+    height:36px;
+    margin: 20px 0;
+    border-radius: 18px;
+    padding: 2px 12px;
+    margin-left: -47px;
+}
